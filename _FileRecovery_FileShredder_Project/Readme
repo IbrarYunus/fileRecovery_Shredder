@@ -1,0 +1,32 @@
+*****************************************
+|| File Recovery/File Shredder Project
+|| Ibrar Yunus
+||
+|||||As part of OS course project
+|||||Uses some code given by instructor
+*****************************************
+Current State:
+	works on only ext2 disk images
+	compiles to runScan
+	takes 2 arguments ~ location of disk image and location of output directory
+	parses disk image and retrieves JPEG images (deleted and not deleted) and saves them to the output folder
+
+Future Plans:
+	The work is divided as follows:
+
+ 		Create automated unit tests to test the software for future testing code change
+ 		Heavily test current software to clear out any ambiguities
+ 		Optimize the current code and run tests
+
+ 		Extend functionality to other common file types ( major image formats, document formats, video formats etc)	
+ 		Fork a new version to implement file shredding functionality ( i.e. shredding at inode block level )
+
+ 		Modify File Shredder to shred a specific file based on inode number or file name
+ 		Optimize Code and run tests
+
+ 		Modify File Recoverer to recover specific file based on inode number or file name or from specific directory
+ 		OPtimize Code and run tests	
+
+
+*Note:
+	As of now the code is partially commented, will comment it fully in 2-3 days.
